@@ -1,0 +1,136 @@
+body{ 
+   
+    background-image: url(IMG_20210804_172703.jpg);
+    line-height: 1;
+    font-family: sans-serif;
+
+}
+
+.container{
+       border-radius: 2px;
+       background: rgba(255,255,255,.2);
+       box-shadow: 0 5px 15px rgba(0,0,0,.5);
+       padding: 1em;
+       border-radius: 20px;
+}
+.search{
+       position: absolute;
+       top: 2%;
+       left: 50%;
+}
+
+.search input {
+
+    border-radius: 20px;
+    border-color: whitesmoke;
+    color: black;
+   
+
+}
+
+button{
+     border-radius: 20px;
+    border-color: whitesmoke;
+}
+
+
+input[type="text"]{
+   padding: 6px;
+    width: 320px;
+}
+
+.hello{
+    color: black;
+    padding-left: 130px;
+    padding-bottom: 30px;
+}
+
+ .card{
+    background-image: url(sun.jpg);
+    color: black;
+    padding: 29px 25px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 7px;
+    margin-left: 90px;
+    line-height: 30px;
+}
+
+.card1{  
+    background-image: url(suncloud.jfif);
+    color: black;
+    padding: 29px 25px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 7px;
+    margin-left:65px;
+    line-height: 28px;
+    
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    
+}
+
+.temp{
+     
+     padding-bottom: 5px;
+     padding-left: 130px;
+     margin-top: 5px;
+     
+}
+
+.card2{
+    background-image: url(rainy.jpg);
+    color: black;
+    padding: 29px 25px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 400px;
+    margin: 7px;
+    margin-left: 65px;
+    line-height: 28px;
+    
+    
+}
+
+@media screen and (max-width : 680px)
+{
+    .container{
+        overflow: hidden;
+    }
+    .hello{
+        width: 90%;
+        padding-left:  0px;
+        
+    }
+    
+
+    .search input{
+   
+        margin = 15px;
+       
+    }
+    input[type="text"]{
+        width: 150px;
+    }
+    
+    .row{
+        width: 100%;
+        margin: 0;
+        
+    }
+}
